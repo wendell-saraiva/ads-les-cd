@@ -12,3 +12,6 @@ def test_multiplicacao():
 
 def test_divisao():
     assert divisao(8, 2) == 4
+
+def test_media():
+    assert media(4, 6) == 5

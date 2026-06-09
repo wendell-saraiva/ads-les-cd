@@ -16,3 +16,6 @@ def test_divisao():
 def test_divisao_por_zero():
     with pytest.raises(ValueError):
         divisao(10, 0)
+
+def test_potencia():
+    assert potencia(2, 3) == 8
